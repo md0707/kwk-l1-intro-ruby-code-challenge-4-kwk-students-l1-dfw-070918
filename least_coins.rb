@@ -27,4 +27,4 @@ return coins
 
 end
 
-least_coins(57)
+ puts least_coins(57)
