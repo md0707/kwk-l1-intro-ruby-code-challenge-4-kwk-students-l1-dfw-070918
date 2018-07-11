@@ -7,6 +7,20 @@ coins[:quarters] += 1
 cents = cents - 25
 end
 
+while cents >= 10
+coins[:dimes] += 1
+cents = cents - 10
+end
+
+while cents >= 5
+coins[:nickles] += 1
+cents = cents - 5
+end 
+
+while cents >= 1
+coins[:pennies] += 1
+cents = cents - 1
+end 
 
 
 
